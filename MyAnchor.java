@@ -57,5 +57,6 @@ public class MyAnchor extends Anchor {
 	@Override
 	public boolean isEnabled() {
 		return enabled;
+		this.get();
 	}
 }
